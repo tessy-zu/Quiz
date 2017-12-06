@@ -1,8 +1,5 @@
 <resources>
     <string name="app_name">GeoQuiz</string>
-    <!--<string name="question_text">-->
-        <!--Constantinople is the largest city in Turkey.-->
-    <!--</string>-->
     <string name="button_true">True</string>
     <string name="button_false">False</string>
 
