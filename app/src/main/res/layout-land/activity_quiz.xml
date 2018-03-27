@@ -30,23 +30,21 @@
     </LinearLayout>
 
         <Button
-            android:id="@+id/previous_button"
-            android:drawablePadding="4dp"
-            android:drawableLeft="@drawable/arrow_left"
+            android:id="@+id/cheat_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_gravity="bottom|left"
-            android:text="@string/previous_button"
-            />
+            android:layout_gravity="bottom|center"
+            android:text="@string/cheat_button"
+            style="?android:attr/borderlessButtonStyle"/>
 
         <Button
             android:id="@+id/next_button"
-            android:drawablePadding="4dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom|right"
-            android:drawableRight="@drawable/arrow_right"
             android:text="@string/next_button"
+            android:drawableRight="@drawable/arrow_right"
+            android:drawablePadding="4dp"
             />
 
 </FrameLayout>
